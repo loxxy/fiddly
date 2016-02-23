@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Fiddly</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+	<div class="headcontainer">
+        <h3 class="titlef">Fiddly <a class="sm" id="clearBtn">(clear changes)</a></h3>
+        <div>Page Editor</div>
+        <div>Video Downloader</div>
+		<div class="onoffswitch" id="editorBtn">
+			<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="editorBtnState" checked="true">
+			<label class="onoffswitch-label" for="editorBtnState">
+				<div class="onoffswitch-inner notransition"></div>
+				<div class="onoffswitch-switch notransition"></div>
+			</label>
+		</div>
+		<div class="onoffswitch" id="vidDownloderBtn">
+			<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="vidDownloderBtnState" checked="true">
+			<label class="onoffswitch-label" for="vidDownloderBtnState">
+				<div class="onoffswitch-inner notransition"></div>
+				<div class="onoffswitch-switch notransition"></div>
+			</label>
+		</div>
+	</div>  
+    <div id="main"></div>  
+    <script src="jquery-1.11.0.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
+
