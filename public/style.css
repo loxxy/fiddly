@@ -1,0 +1,1 @@
+.fiddlyMarker .cBtn{pointer-events:auto;cursor:pointer;height:16px;width:16px;background-repeat:no-repeat;background-position:50%;margin-right:5px}.fiddlyMarker .moveBtn{display:none}.fiddlyMarker .snapBtn{display:none}.fiddlyMarker{pointer-events:none;background:rgba(255,254,254,.8);border:2px dashed orange;position:absolute;z-index:1}.fiddlyMarker .btnCon{text-align:right}
